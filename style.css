@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-100 {
+  font-weight: 100;
+}
+.poppins-200 {
+  font-weight: 200;
+}
+.poppins-300 {
+  font-weight: 300;
+}
+.poppins-400 {
+  font-weight: 400;
+}
+.poppins-500 {
+  font-weight: 500;
+}
+.poppins-600 {
+  font-weight: 600;
+}
+.poppins-700 {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.container {
+  width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.container--header {
+  width: 1519;
+}
+.logo {
+  width: 35px;
+}
+.h1 {
+  padding: 0px 0px 0px 15px;
+}
+.nav {
+  gap: 40px;
+}
+.nav-link {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  line-height: 27px;
+}
+.nav-link--button {
+  font-size: 15px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: rgb(26, 27, 31);
+  padding: 12px 25px 25px 16px;
+  color: white;
+}
+/* Hero */
+.section--hero {
+  margin-top: 188px;
+  margin-bottom: 190px;
+}
+.hero-content {
+  gap: 50px;
+}
+
+.hero-image {
+
+  width: 439px;
+  height: 420px;
+}
+
+.hero-title {
+  font-size: 80px;
+  letter-spacing: -3px;
+  line-height: 90px;
+}
+.hero-discription {
+  font-size: 25px;
+  line-height: 45px;
+}
+
+/*Works*/
+.section--works {
+  margin: auto;
+}
+
+.section-header {
+  padding: 0px 60px 0px 0px;
+  line-height: 28px;
+}
+.section-heading {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 44px;
+  line-height: 62px;
+}
+.section-discription {
+  font-size: 20px;
+}
+
+.section-service {
+  flex-wrap: wrap;
+}
+
+/*Media*/
+.media {
+  margin: auto;
+}
+.media-heading {
+  font-size: 44px;
+}
+
+.media-image {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.media-content {
+  flex-wrap: wrap;
+}
